@@ -1,0 +1,194 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.homedical"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:24:5-79
+12-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:25:5-68
+13-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:25:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:26:22-107
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+15-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+16
+17    <application
+17-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:7:5-33:19
+18        android:allowBackup="true"
+18-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:8:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\3bcafbc2e95e113b9db4402c8bff255d\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:9:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:10:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:11:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:12:9-35
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:13:9-40
+26        <activity android:name="com.example.homedical.Register" >
+26-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:14:9-20:20
+26-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:14:19-43
+27            <intent-filter>
+27-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:15:13-19:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:16:17-69
+28-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:16:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:18:17-77
+30-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:18:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.example.homedical.Login" />
+33-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:21:9-43
+33-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:21:19-40
+34        <activity android:name="com.example.homedical.MainActivity" >
+34-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:22:9-28:20
+34-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:22:19-47
+35            <intent-filter>
+35-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:15:13-19:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:16:17-69
+36-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:16:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:18:17-77
+38-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:18:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <meta-data
+42-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:30:9-32:57
+43            android:name="preloaded_fonts"
+43-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:31:13-43
+44            android:resource="@array/preloaded_fonts" />
+44-->C:\Users\rivka\HoMedical\app\src\main\AndroidManifest.xml:32:13-54
+45
+46        <receiver
+46-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:29:9-33:20
+47            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+47-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:30:13-85
+48            android:enabled="true"
+48-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:31:13-35
+49            android:exported="false" >
+49-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:32:13-37
+50        </receiver>
+51        <receiver
+51-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:34:9-42:20
+52            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+52-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:35:13-100
+53            android:enabled="true"
+53-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:36:13-35
+54            android:exported="true"
+54-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:37:13-36
+55            android:permission="android.permission.INSTALL_PACKAGES" >
+55-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:38:13-69
+56            <intent-filter>
+56-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:39:13-41:29
+57                <action android:name="com.android.vending.INSTALL_REFERRER" />
+57-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:40:17-79
+57-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:40:25-76
+58            </intent-filter>
+59        </receiver>
+60
+61        <service
+61-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:44:9-47:40
+62            android:name="com.google.android.gms.measurement.AppMeasurementService"
+62-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:45:13-84
+63            android:enabled="true"
+63-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:46:13-35
+64            android:exported="false" />
+64-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:47:13-37
+65        <service
+65-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:48:9-52:72
+66            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+66-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:49:13-87
+67            android:enabled="true"
+67-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:50:13-35
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:51:13-37
+69            android:permission="android.permission.BIND_JOB_SERVICE" />
+69-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\a2a37af89ff6b886094f25d7535393e0\play-services-measurement-17.2.0\AndroidManifest.xml:52:13-69
+70        <service
+70-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\e7a47fe6ab9e3dfc00bca59c6b021202\play-services-measurement-api-17.2.0\AndroidManifest.xml:27:9-33:19
+71            android:name="com.google.firebase.components.ComponentDiscoveryService"
+71-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\e7a47fe6ab9e3dfc00bca59c6b021202\play-services-measurement-api-17.2.0\AndroidManifest.xml:28:13-84
+72            android:exported="false" >
+72-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\e7a47fe6ab9e3dfc00bca59c6b021202\play-services-measurement-api-17.2.0\AndroidManifest.xml:29:13-37
+73            <meta-data
+73-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\e7a47fe6ab9e3dfc00bca59c6b021202\play-services-measurement-api-17.2.0\AndroidManifest.xml:30:13-32:85
+74                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+74-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\e7a47fe6ab9e3dfc00bca59c6b021202\play-services-measurement-api-17.2.0\AndroidManifest.xml:31:17-139
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\e7a47fe6ab9e3dfc00bca59c6b021202\play-services-measurement-api-17.2.0\AndroidManifest.xml:32:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+77                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+77-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+79        </service>
+80
+81        <receiver
+81-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+82            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+82-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+83            android:exported="true"
+83-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+84            android:permission="com.google.android.c2dm.permission.SEND" >
+84-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+85            <intent-filter>
+85-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+86                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+86-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+86-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\333a4b14f4a36b22a5b8879ae448e614\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+87            </intent-filter>
+88        </receiver>
+89
+90        <provider
+90-->[com.google.firebase:firebase-common:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\f47d93387ab382f8a82b6bd47a96f57b\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+91            android:name="com.google.firebase.provider.FirebaseInitProvider"
+91-->[com.google.firebase:firebase-common:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\f47d93387ab382f8a82b6bd47a96f57b\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+92            android:authorities="com.example.homedical.firebaseinitprovider"
+92-->[com.google.firebase:firebase-common:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\f47d93387ab382f8a82b6bd47a96f57b\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+93            android:exported="false"
+93-->[com.google.firebase:firebase-common:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\f47d93387ab382f8a82b6bd47a96f57b\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+94            android:initOrder="100" />
+94-->[com.google.firebase:firebase-common:19.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\f47d93387ab382f8a82b6bd47a96f57b\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+95
+96        <activity
+96-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\4fd23f1c0a576ef4883220502e5e1d72\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+97            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+97-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\4fd23f1c0a576ef4883220502e5e1d72\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+98            android:exported="false"
+98-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\4fd23f1c0a576ef4883220502e5e1d72\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+99            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+99-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\4fd23f1c0a576ef4883220502e5e1d72\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+100
+101        <meta-data
+101-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\95cbc807a5953685bf33d20b9545db46\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+102            android:name="com.google.android.gms.version"
+102-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\95cbc807a5953685bf33d20b9545db46\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+103            android:value="@integer/google_play_services_version" />
+103-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rivka\.gradle\caches\transforms-2\files-2.1\95cbc807a5953685bf33d20b9545db46\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+104    </application>
+105
+106</manifest>
